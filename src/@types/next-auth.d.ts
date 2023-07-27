@@ -9,4 +9,9 @@ declare module 'next-auth' {
     username: string
     avatar_url: string
   }
+
+  // eslint-disable-next-line no-unused-vars
+  interface Session {
+    user: User
+  }
 }
